@@ -1,6 +1,6 @@
 package com.example.emailsender.service;
 
 public interface EmailSenderService {
-    void sendEmail(String io,String subject, String messsage);
+    void sendEmail(String to,String subject, String messsage);
 
 }
